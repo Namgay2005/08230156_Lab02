@@ -1,0 +1,139 @@
+/* Google Fonts (add in your <head> of HTML)
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #ffe6eb, #e6fff9, #fff7e6);
+    margin: 0;
+    padding: 0;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(to right, #ffd6e0, #c6f6f2);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #ff6699;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Hero Section */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff0f6;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header h1 span {
+    color: #2eccb6; /* sweet mint */
+}
+
+header p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Section Styling */
+section {
+    background: #fff;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(to right, #ffb6c1, #a8edea, #ffd1a1);
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+/* Profile Image */
+img {
+    max-width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+    border: 5px solid #ffd6e0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Contact Buttons */
+button, .btn {
+    background: linear-gradient(to right, #ffb6c1, #a8edea);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+    margin-top: 15px;
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(to right, #ffd1a1, #ffcce7);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffe6eb;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 40px;
+    border-top: 2px dashed #ffcce7;
+}
+
+
+
+
+
+
